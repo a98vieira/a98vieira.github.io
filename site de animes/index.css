@@ -1,0 +1,59 @@
+body{
+    background-color: #0c0d2d;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-color: #0c0c19;
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+table {
+    margin-left: auto;   /* Define margem à esquerda como automática */
+    margin-right: auto;  /* Define margem à direita como automática */
+    width: 70%;
+}
+
+footer{
+    background-color: #0c0c19;
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+.product__item__text h5 a {
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+/* test */
+
+.edição_linha {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Espaçamento entre os itens */
+    
+
+}
+    
+.item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.margi {
+    margin: 25%;
+
+}
